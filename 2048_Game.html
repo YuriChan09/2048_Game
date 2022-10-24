@@ -1,79 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8">
-  <title>2048 Game</title>
-  <link href="./2048_Game_files/main.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    /* score best .after */
-  </style>
-  <link rel="shortcut icon" href="./2048_Game_files/favicon.ico">
+<head>
+    <meta charset="UTF-8">
+
+    <title>2048 Game</title>
+
+    <link href="./2048_Game_files/main.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        /* score best .after */
+    </style>
+    <link rel="shortcut icon" href="./2048_Game_files/favicon.ico">
+
 </head>
+
 <body>
-  <!--Title & Score-->
-  <div class="container">
+<div class="container">
+    <!--Title & Score-->
     <div class="heading">
-      <h1 class="title">2048</h1>
-      <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
-      </div>
-    </div>
-  </div>
-
-  <!--Start bottom-->
-  <div class="above-game">
-    <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong>s></p>
-    <a class="restart-button">New Game</a>
-  </div>
-
-  <div class="game-container">
-    <!--message-->
-    <div class="game-message">
-      <div class="lower">
-        <a class="keep-playing-button">Keep going</a><!--can be deleted-->
-        <a class="retry-button">Try again</a>
-      </div>
-    </div>
-
-    <!--grid-->
-    <div class="grid-container">
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-      <div class="grid-row">
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-        <div class="grid-cell"></div>
-      </div>
-
-      <div class="tile-container">
-        <div class="tile tile-2 tile-position-2-2 tile-new">
-          <div class="tile-inner">2</div>
+        <h1 class="title">2048</h1>
+        <div class="scores-container">
+            <div class="score-container">0</div>
+            <div class="best-container">0</div>
         </div>
-        <div class="tile tile-2 tile-position-4-1 tile-new">
-          <div class="tile-inner">2</div>
-        </div>
-      </div>
-
-
-
     </div>
-  </div>
+
+    <!--Start bottom-->
+    <div class="above-game">
+        <p class="game-intro">Join the numbers and get to the <strong>2048 tile</strong>!</p>
+        <a class="restart-button">New Game</a>
+    </div>
+
+    <!--Game-->
+    <div class="game-container">
+        <!--message-->
+        <div class="game-message">
+            <div class="lower">
+                <a class="keep-playing-button">Keep going</a>     <!--Win-->
+                <a class="retry-button">Try again</a>             <!--GameOver-->
+            </div>
+        </div>
+
+        <!--grid-->
+        <div class="grid-container">
+            <!--row1-->
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <!--row2-->
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <!--row3-->
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+            <!--row4-->
+            <div class="grid-row">
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+                <div class="grid-cell"></div>
+            </div>
+        </div>
+            <div class="tile-container">
+                <div class="tile tile-2 tile-position-2-2 tile-new">
+                    <div class="tile-inner">2</div>
+                </div>
+                <div class="tile tile-2 tile-position-4-1 tile-new">
+                    <div class="tile-inner">2</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
 </body>
 </html>
