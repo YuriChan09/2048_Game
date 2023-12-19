@@ -1,0 +1,1 @@
+This is a CNN-based 2048 game AI. Due to the extensive size of the training dataset, I am unable to upload all the project files. This is just a simple frontend interface designed for demonstration purposes.
